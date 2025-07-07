@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
-"""tick module
-"""
-# License: BSD 3 clause
+"""Lightweight subset of the tick package exposing only HawkesADM4."""
 
-import tick.base
+from .hawkes import HawkesADM4
+
+__all__ = ["HawkesADM4"]
